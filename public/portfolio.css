@@ -1,0 +1,194 @@
+ /*======================= PORTFOLIO ====================================*/
+
+ .mywork,.roadjournal{
+    /*background-image: linear-gradient(to top, #ecedee 0%, #eceeef 65%, #e7e8e9 100%);*/
+    min-height: 100vh;
+    animation: 0.8s fadein 0.5s forwards;
+    opacity: 0;
+    }
+
+        @keyframes fadein{
+            100%{
+              opacity: 1;
+            }
+          }
+
+/* DIV CONTAINDER */
+        .portfolio,.sectionhospitality,.sectionsports,.sectionwedding,.sectionevents,.sectionbrands,.sectionmaternity{
+          background-color: rgba(255, 255, 255, 0.822);
+          /*min-height: 800px;*/
+          max-height: auto;
+          border-radius: 10px;
+          display: flex;
+          flex-direction: column;;
+          font-family: 'Work Sans', sans-serif;
+          width: auto;
+          padding: 10% 0 0 0;
+         
+        }
+  
+   
+          .galleries{
+            display: flex;
+            flex-wrap:wrap;
+            margin: 0;
+            justify-content: left;
+          }
+                .galleries div img{
+                    display: block;
+                    max-height: 350px;
+                    width:400px;
+                    transition: transform .3s;
+                    border-radius: 4px;
+                }
+                
+                  .galleries div img:hover{
+                  transform: scale(0.9);
+                  }
+                
+                .images h2{
+                  text-align: center;
+                  position: relative;
+                  /*padding: 5px 0 5px 0;*/
+                  width: auto;
+                  margin: 8px 0 8px 0;
+                  font-size: 28px;
+                  padding: 10px;
+                  color: black;/*rgba(73, 73, 73, 0.918);*/
+                  font-family: 'Work Sans', sans-serif;
+                }
+
+                  .galleries a, .mainpanel a{
+                    text-decoration: none !important;
+                    color: black;
+                  }
+                  .images, .imageslayout{
+                    padding: 15px;
+                  }
+                  .social2{
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: row;
+                    justify-content: center;
+                    background:rgba(5, 5, 5, 0.692);
+                  }
+                    .items-social2 {
+                      margin:45px 15px 0 0;
+                      text-align: center;
+                    }
+
+            .headerportfolio{
+              font-size: 38px;
+              align-self: center;;
+              margin: 20px;
+              padding: 35px 50px;
+              border-bottom:rgba(5, 5, 5, 0.692) solid 1px;
+              border-top: rgba(5, 5, 5, 0.692) solid 1px;
+            }
+      
+    /* ======================== SECTIONS UNDER PORTFOLIO ================= */
+    
+    .sectionevents,.sectionhospitality,.sectionwedding, .sectionbrands, .sectionsports, .sectionmaternity{
+      min-height: 100vh;
+      /* padding: 40px 0; */
+      animation: 0.8s fadein 0.5s forwards;
+      opacity: 0;
+     }
+    
+      @keyframes fadein{
+        100%{
+          opacity: 1;
+        }
+      }
+
+
+  
+             
+      .mainpanel{
+          background-color: rgba(255, 255, 255, 0.918);
+          color: #35373a;
+          min-height: 100vh;
+          border-radius: 10px;
+          box-shadow: 0 8px 10px rgba(0, 0, 0, 0.06);
+          display: flex;
+          flex-wrap:wrap;
+          justify-content: space-evenly;
+      }
+      
+       .mainpanel div img{
+          display: flex;
+          flex-wrap: wrap;
+          height: 250px;
+          width: auto;
+        }
+        .imageslayout img {
+          border-radius: 3px;
+        
+        }
+
+
+
+
+
+
+/* ==== LIGHTBOX DESIGN ======= */
+
+    /* 1.Add to footer a js bagueete link to the file name acccording galleries what you wanna display */
+    
+    .lightbox img {
+      width: 100%;
+      margin-bottom: 30px;
+      transition: 0.2s ease-in-out;
+      box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    }
+
+        .lightbox img:hover {
+            transform: scale(0.9);
+            box-shadow: 0 8px 10px rgba(0,0,0,0.3);
+        }
+        .baguetteBox-button {
+            background-color: transparent !important;
+        }
+
+/* ============================== */
+
+/* ........................................... */
+
+
+/* ==================== MOBILDE VERSION PORTFOLIO ================ */    
+  
+@media screen and (min-width: 250px) and (max-width: 1250px){
+  .sectionevents,.sectionwedding, .sectionbrands, .sectionsports, .sectionmaternity,.sectionhospitality{
+   padding-top: 100px;
+   padding-bottom: 0;
+   }
+
+  .galleries div img{ 
+    padding-top: 5%;
+     max-height:230px;
+     width: 250px;
+   }
+
+   .images h2{
+     font-size: 22px;
+     }
+
+    .events, #wedding {
+      border-radius: 0;
+    }
+    .mainpanel{
+       padding: 2em 0 2em 0;
+    }
+    .mainpanel div img{
+        width: 260px;
+        height: auto;
+      }
+  
+    .imageslayout {
+      padding: 20px;
+      margin: 0;
+    }
+    a.btn.btn-basic {
+     font-size: 15px;
+    }
+   }

@@ -1,0 +1,140 @@
+	<% include partials/header %>
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="/">
+				<img alt="Brand" style="max-width:120px;" src="/logo.png">
+			</a>
+
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 	data-target="#bs-nav-demo" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+
+		<div class="collapse navbar-collapse" id="bs-nav-demo">
+
+            <div class="nav navbar-nav navbar-right">
+                <div>
+                    <a href="/">HOME</a>
+                </div>
+                <div>
+                    <a href="/biography">BIOGRAPHY</a>
+                </div>
+
+                <!-- DROPDOWN MENU PORFOLIO -->
+
+                <button onclick="myFunction()" class="dropbtn" class="active">PORTFOLIO</button>
+				<div id="myDropdown" class="dropdown-content">
+                    <a href="/hospitality">Hospitality</a>
+                    <a href="/wedding">Wedding</a>
+                    <a href="/maternity">Maternity</a>
+                    <a href="/sports">Sports</a>
+                    <a href="/events">Events</a>
+                    <a href="/brands">Brands</a>
+
+                </div>
+               <!--ENDS DROPDOWN MENU-->
+                <div>
+                    <a href="/roadjournal">BLOG</a>
+                </div> 
+                <div class="special"> 
+                    <a href="/getintouch">GET IN TOUCH</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+<body class="mywork">
+
+	<div class="container-fluid">	
+		<section class="portfolio">
+			<main class="galleries">
+
+				<div class="images">
+					<a href="hospitality"><img class=" gallery-image" src="/Hospitality/GALVENA bilde.jpg" alt="hospitality">
+					<h2 class="shorttext">Hospitality</h2></a>
+				</div>
+				<div class="images">
+					<a href="wedding"><img class="gallery-image" src="/Wedding/Wedding PIRMA bilde.jpg" alt="wedding">
+					<h2 class="shorttext">Wedding</h2></a>
+				</div>
+				<div class="images">
+					<a href=""><img class="gallery-image" src="/Maternity/Maternity TITULBILDE.jpg" alt="maternity">
+					<h2 class="shorttext">Maternity</h2></a>
+				</div>
+				<div class="images">
+					<a href="sports"><img  class="hover gallery-image" src="/Sports/Sports TITULBILDE.jpg" alt="Sports">
+					<h2 class="shorttext">Sports</h2></a>
+				</div> 
+				<div class="images">
+					<a href=""><img  class="hover gallery-image" src="/Events/Events TITULBILDE.jpg" alt="events">
+					<h2 class="shorttext">Events</h2></a>
+				</div> 
+				<div class="images">
+					<a href=""><img  class="hover gallery-image" src="Brands/Brands TITULBILDE.jpg" alt="brands">
+					<h2 class="shorttext">Brands</h2></a>
+				</div> 
+				<!-- <div class="images">
+					<a href="portraits"><img  class="hover gallery-image" src="/portraits/Portraits 007.jpg" alt="Portraits">
+					<h2 class="shorttext">Portraits</h2></a>
+				</div>   -->
+				<!-- <div class="images">
+					<a href=""><img  class="hover gallery-image" src="" alt="Portraits">
+					<h2 class="shorttext">Family</h2></a>
+				</div>   -->
+				<div class="images">
+					<a href="lifestyle"><img class="hover gallery-image" src="/Lifestyle/LYFESTYLE_mainpic.jpg" alt="lifestyle">
+					<h2 class="shorttext">Lifestyle</h2></a>
+				</div>
+				<!-- <div class="images">
+					<a href=""><img class="hover gallery-image" src="" alt="lifestyle">
+					<h2 class="shorttext">SAC huts</h2></a>
+				</div> -->
+				<div class="images">
+					<a href="landscapes"><img class=" gallery-image" src="/Landscapes/Landscape_titulfoto.jpg" alt="Travel landscapes">
+					<h2 class="shorttext">Landscapes</h2></a>
+				</div>
+
+				<div class="images">
+					<a href="travel"><img class="hover gallery-image" src="/Travel/TRAVEL_mainpic.jpg" alt="Travel">
+					<h2 class="shorttext">Travel</h2></a>
+				</div>
+				<!-- END OF THE FIRST LINE-->				
+		
+			</div> <!--CONTAINER FLUID ENDS-->
+			<button onclick="topFunction()" id="myBtn" title="Go to top">Up</button> 
+		</main>
+				<div class="social2">
+					<div class="items-social2">
+						<a class="social-media facebook" href="https://www.facebook.com/liva.linde"
+							target="_blank"></a>
+					</div>
+					<div class="items-social2">
+						<a class="social-media instagram" href="https://www.instagram.com/liva_linde/"
+							target="_blank"></a>
+					</div>
+					<div class="items-social2">
+						<a class="social-media linkedin" href="https://www.linkedin.com/in/liva-linde/"
+							target="_blank"></a>
+					</div>
+					<div class="items-social2">
+						<a class="social-media " href="https://www.tiktok.com/@liva_linde" target="blank"><i class="fab fa-tiktok"></i>
+					   
+						</a>
+					</div>
+					</div>
+				
+
+				</section>
+			</div>
+				
+	
+	
+				<!-- END OF THE SECOND LINE-->
+		
+
+
+<% include partials/footer %>
+	

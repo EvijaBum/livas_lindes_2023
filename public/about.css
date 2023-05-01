@@ -1,0 +1,185 @@
+/*============================  ABOUT ME ====================================*/
+
+ 
+@keyframes fadein{
+    100%{
+      opacity: 1;
+    }
+  }
+ 
+    .parallax {
+      /* The image used */
+      background-image: url("Fons_001.jpg");
+
+      /* Full height */
+      height: 100vh;
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .about {
+      margin: 0;
+      padding: 10%;
+    }
+        .aboutsection{
+          display: flex;
+          flex-direction:row;
+          flex-wrap: wrap;
+          width: 100%;
+        }
+
+        .intro{
+          display: flex; 
+        }
+          .caps{
+            padding-bottom: 10px;
+            font-size: 40px;
+            color: #121212ad;
+            animation: 0.8s fadein 0.5s forwards;
+            letter-spacing: 0.1em;
+            opacity: 0;
+            font-family: 'Simonetta', cursive;
+          }
+
+          .pads{
+            padding: 50px;
+            margin-right: 10px;
+            font-size: 18px;
+            font-family: Arial,sans-serif;
+            color: #fdfdfddc;
+            font-weight: 200;
+            text-align: justify; /* For Edge */
+            text-align-last: left;
+            padding-bottom: 2%;
+          }
+              .pads p{
+                line-height: 22px;
+              }
+            
+          @keyframes fadein{
+            100%{
+              opacity: 1;
+            }
+          }
+
+
+  /* _-------- EDUCATION ------ */
+          .education{
+            padding:50px;
+            font-family: Arial, sans-serif;  
+     
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            margin-left: 1.2em;
+          }
+          #studies {
+            padding-bottom: 20px;
+          }
+            #studies h3 {
+              display: flex;
+              color: rgba(23, 23, 23, 0.932);
+              display: flex;
+              justify-content: left;
+              font-size: 34px;
+            }
+      
+          #small h4 {
+            color:rgba(23, 23, 23, 0.735)
+          }
+                .education li {
+                    padding-bottom: 10px;
+                    font-size: 18px;
+                    line-height: 35px;
+                    color: rgb(243, 241, 241);
+                  }
+            
+                
+                .education ul {
+                  list-style-type: none;
+                  padding: 1%;
+                  margin: 0;
+                  align-self: baseline;
+                }
+                strong {
+                  color: rgb(252, 247, 247);
+                  font-size: 24px;
+                }
+
+                #small {
+                  width: 361px;
+                  height: inherit;
+                  margin-bottom:5%;
+                }
+    
+
+ @media only screen and (min-width: 150px) and (max-width: 1250px) {
+
+                .about{
+                      background-size: cover;
+                      flex-basis: 100%;
+                      background-position: top; 
+                      margin: 0;
+                      padding: 100px 0 0 0;
+                    }
+
+                    .intro {
+                      flex-direction: column;
+                      margin: 0;
+                      align-content: left;
+                      padding: 0;
+                    }
+                        .pads{
+                          height: auto;
+                        }
+
+                        .caps {
+                          font-size: 28px;
+                          line-height: 25px;
+                          letter-spacing: 2px;
+                          margin-left: -30px;
+                        }
+
+                        p {
+                          font-size: 17px;
+                        }
+                  
+                  .education{
+                        display: flex;
+                         margin-top: 5% 0 0 0;
+                         padding: 40px 0 0 0;
+                         width: auto;
+                         height: auto;
+                        }
+                                
+                        #studies h3 {       
+                          font-size: 28px;
+                          color: rgb(17, 17, 17);
+                          margin-left: -10px;
+                        }
+
+                        .education ul {
+                          margin: 8px;
+                          align-self: flex-start;                
+                        }
+                          .education li h4{
+                          font-size: 18px;
+                          color:rgb(243, 239, 239);
+                          margin-bottom: 2px;
+
+                          }
+                          .education li p{
+                            font-size: 16px;
+                             font-weight: normal;
+                             margin-left: 20px;
+                            }
+        
+                            #small {
+                              width: auto;
+                              height: inherit;
+                              margin-bottom:5%;
+                            }
+                       }
