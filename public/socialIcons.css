@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: right;
     flex-wrap: wrap; 
+    padding-top: 15px;
     }     
     
     .items-social {

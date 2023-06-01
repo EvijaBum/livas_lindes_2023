@@ -69,11 +69,11 @@
           .education{
             padding:50px;
             font-family: Arial, sans-serif;  
-     
             display: flex;
             flex-wrap: wrap;
             flex-direction: column;
             margin-left: 1.2em;
+            margin-bottom: 15px;
           }
           #studies {
             padding-bottom: 20px;
@@ -111,7 +111,7 @@
                 #small {
                   width: 361px;
                   height: inherit;
-                  margin-bottom:5%;
+                  margin-bottom:15%;
                 }
     
 

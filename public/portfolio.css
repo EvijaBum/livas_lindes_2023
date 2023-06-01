@@ -63,6 +63,7 @@
                     padding: 15px;
                   }
                   .social2{
+                    padding-top: 15px;
                     display: flex;
                     flex-wrap: wrap;
                     flex-direction: row;
@@ -70,7 +71,7 @@
                     background:rgba(5, 5, 5, 0.692);
                   }
                     .items-social2 {
-                      margin:15px 15px 0 0;
+                  
                       text-align: center;
                     }
 
@@ -82,6 +83,7 @@
               justify-content: center;
               align-self: center;
               padding: 20px 50px;
+              margin:10px;
               border-bottom:rgba(5, 5, 5, 0.692) solid 1px;
               border-top: rgba(5, 5, 5, 0.692) solid 1px;
             }
@@ -159,7 +161,7 @@
   
 @media screen and (min-width: 250px) and (max-width: 1250px){
   .mywork,.sectionevents,.sectionwedding, .sectionbrands, .sectionsports, .sectionmaternity,.sectionhospitality{
-   padding-top: 100px;
+   padding-top: 120px;
    padding-bottom: 0;
    }
 
@@ -190,5 +192,8 @@
     }
     a.btn.btn-basic {
      font-size: 15px;
+    }
+    .headerportfolio{
+      font-size: 28px;
     }
    }
