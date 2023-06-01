@@ -192,8 +192,12 @@
     .fottext{
       text-align: center;
       font-family: 'Raleway', sans-serif;
-      font-size: 20px;
+      font-size: 16px;
       padding: 20px;
+      color: rgba(255, 252, 252, 0.772);
+    }
+    .footer a{
+      text-decoration: none;
       color: rgba(255, 252, 252, 0.772);
     }
 
