@@ -127,6 +127,10 @@ nav, .message, .social{
     align-items: flex-start;
     margin: 0;
   }
+  .navbar-toggle{
+    margin-top: 20px;
+    margin-left: 100px;
+  }
   .nav-links {
     display: none;
     flex-direction: column;
