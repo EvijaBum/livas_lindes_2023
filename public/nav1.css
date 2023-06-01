@@ -106,21 +106,21 @@ nav, .message, .social{
   display: block;
 }
 
-.navbar-toggle {
-  margin-top: 20px;
-   margin-left: 150px; 
+  .navbar-toggle {
+    margin-top: 20px;
+    margin-left: 180px;
 }
+
 .navbar-default .navbar-toggle {
-  border-color: #1a1919;
+  border-color: #bab6b67e;
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-  background-color: #0d0c0c;
+  background-color: #0d0c0cb3;
 }
 
 
 /* Media Queries */
-@media screen and (max-width: 768px) {
-
+@media only screen and (min-width: 250px) and (max-width: 1250px){
   .navbar {
     display: flex;
     flex-direction: column;
@@ -131,6 +131,7 @@ nav, .message, .social{
     display: none;
     flex-direction: column;
   }
+
 .nav-links a {
     margin: 8px 0;
   }
@@ -138,10 +139,13 @@ nav, .message, .social{
   line-height: 30px; 
 }
 .dropdown-content {
-  background-color:#000000;
+  background-color:#000000d9;
 }
 .dropdown-content a {
   color: rgb(255, 255, 255);
+}
+.navbar-nav {
+  margin: 0;
 }
 
 }

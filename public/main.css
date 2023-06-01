@@ -101,17 +101,19 @@ button{
       @media only screen and (min-width: 250px) and (max-width: 1250px) {
 
             .main {
-              margin-top: 90%;
+              margin-top: 70%;
             }
  
             .main h1{
+              padding-top: 25px;
               font-size: 52px;
               }
 
             .message h2{
               padding-top: 5px;
-              font-size: 28px;
-              color:rgb(243, 239, 239);
+              font-size: 32px;
+              color:rgba(255, 255, 255, 0.896);
+              letter-spacing: 2px;
             }
             .social1{
               padding-left: 10px;
