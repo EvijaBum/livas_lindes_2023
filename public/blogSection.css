@@ -1,5 +1,9 @@
   /*     =================== Road Journal MAIN ================ */
- .sectionjournal{
+ .roadjournal{
+  height:100&;
+ }
+ 
+  .sectionjournal{
   padding-top: 10%;
   margin-left: 200px;
 }

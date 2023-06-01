@@ -11,38 +11,32 @@
 }
 .navbar{
     overflow: hidden;
-    background:rgba(5, 5, 5, 0.692);
+    background:rgba(5, 5, 5, 0.528);
     padding-right: 15px;
     border: none;
     border-radius: 0;
+    color: #fff;
     text-align: center;
   }
 
         .nav a {
           align-self: center;
-          color: rgba(247, 240, 240, 0.815);
           font-size: 20px;
           padding: 20px;
           text-align: center;
           font-family: 'Work Sans', sans-serif;
        }
-
-        .nav.active {
-          background: rgba(247, 247, 247, 0.726);
-        }
-
-
-        .nav div a:focus{
-          background-color: rgba(217, 165, 32, 0.2);
-          text-decoration:none;
-          border-radius: 2px;
-        }
-
-        nav, .message, .social, .dropdown{
+       
+        nav, .message, .social{
           animation: 0.8s fadein 0.5s forwards;
           opacity: 0;
         }
-
+        .dropdown-content:hover > a { /* modify selector to only apply hover effect to direct child element */
+          background-color: #f5f5f5c1;
+          color: #fff;
+          padding: 5px 15px; /* add padding around the hover effect */
+          margin: -5px -15px; /* adjust margin to compensate for padding */
+        }
 
 /* The container <div> - needed to position the dropdown content */
 
