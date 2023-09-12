@@ -1,10 +1,5 @@
  /*======================= PORTFOLIO ====================================*/
 
- .mywork,.roadjournal{
-    min-height: 100vh;
-    animation: 0.8s fadein 0.5s forwards;
-    opacity: 0;
-    }
 
         @keyframes fadein{
             100%{
@@ -13,8 +8,7 @@
           }
 
 /* DIV CONTAINDER */
-        .mywork,.sectionhospitality,.sectionsports,.sectionwedding,.sectionevents,.sectionbrands,.sectionmaternity{
-          /*min-height: 800px;*/
+        .mywork,.sectionhospitality,.sectionmaternity,.sectionwedding,.sectionsports,.sectionevents,.sectionbrands {
           max-height: auto;
           border-radius: 10px;
           display: flex;
@@ -22,13 +16,13 @@
           font-family: 'Work Sans', sans-serif;
           width: auto;
           padding: 8% 0 0 0;
+          justify-content: left;
          
         }
    
           .galleries{
             display: flex;
             flex-wrap:wrap;
-            margin: 0;
             justify-content: left;
           }
                 .galleries div img{
@@ -36,7 +30,6 @@
                     max-height: 350px;
                     width:400px;
                     transition: transform .3s;
-                    border-radius: 4px;
                 }
                 
                   .galleries div img:hover{
@@ -71,12 +64,11 @@
                     background:rgba(5, 5, 5, 0.692);
                   }
                     .items-social2 {
-                  
                       text-align: center;
                     }
 
             .headerportfolio{
-              font-size: 38px;
+              font-size: 65px;
               flex-direction: row;
               display: flex;
               flex-wrap: wrap;
@@ -87,34 +79,15 @@
               border-bottom:rgba(5, 5, 5, 0.692) solid 1px;
               border-top: rgba(5, 5, 5, 0.692) solid 1px;
             }
-      
-    /* ======================== SECTIONS UNDER PORTFOLIO ================= */
-    
-    .sectionevents,.sectionhospitality,.sectionwedding, .sectionbrands, .sectionsports, .sectionmaternity{
-      min-height: 100vh;
-      /* padding: 40px 0; */
-      animation: 0.8s fadein 0.5s forwards;
-      opacity: 0;
-     }
-    
-      @keyframes fadein{
-        100%{
-          opacity: 1;
-        }
-      }
-
-
-  
-             
+       
       .mainpanel{
           color: #35373a;
           min-height: 100vh;
           border-radius: 10px;
-          box-shadow: 0 8px 10px rgba(0, 0, 0, 0.06);
           display: flex;
           flex-wrap:wrap;
-          padding-top: 25px;
-          justify-content: space-evenly;
+          margin: 0;
+          justify-content: left;
       }
       
        .mainpanel div img{
