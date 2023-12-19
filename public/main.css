@@ -102,8 +102,8 @@ button{
     
       /* ------- HOME---- */
 
-      @media only screen and (min-width: 375px) and (max-width: 1250px)  
-      {
+      @media only screen and (-webkit-min-device-pixel-ratio: 3), only screen and (min-resolution: 3dppx) {     
+    
             .main {
               margin-top: 70%;
             }
@@ -126,6 +126,10 @@ button{
               margin:2px 2px 0; 
             }
                                                   
+    }
+
+    @media only screen and (min-width: 250px) and (max-width: 1250px) and (orientation: landscape) {
+      /* styles for landscape orientation */
     }
 
 

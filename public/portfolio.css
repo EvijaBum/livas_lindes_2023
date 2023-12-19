@@ -135,7 +135,7 @@
 
 /* ==================== MOBILDE VERSION PORTFOLIO ================ */    
   
-@media screen and (min-width: 250px) and (max-width: 1250px){
+@media only screen and (-webkit-min-device-pixel-ratio: 3), only screen and (min-resolution: 3dppx) {
   .mywork,.sectionevents,.sectionwedding, .sectionbrands, .sectionsports, .sectionmaternity,.sectionhospitality,.sectionfamily {
    padding-top: 120px;
    padding-bottom: 0;
@@ -144,7 +144,7 @@
   .galleries div img{ 
     padding-top: 5%;
      max-height:230px;
-     width: 250px;
+     width: 200px;
    }
 
    .images h2{
@@ -173,3 +173,7 @@
       font-size: 28px;
     }
    }
+
+   @media only screen and (min-width: 250px) and (max-width: 1250px) and (orientation: landscape) {
+    /* styles for landscape orientation */
+  }
