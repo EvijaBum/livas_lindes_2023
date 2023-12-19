@@ -16,28 +16,30 @@ var express             = require("express"),
     });
 
 // PORTFOLIO SECTION
-    router.get("/portfolio", function(req, res){
-        res.render("portfolio"); 
-    }); 
-    // Hospitality
-    router.get("/hospitality", function (req, res){
+ /*   router.get("/family", function(req, res){
+        res.render("family"); 
+}); */
+
+        // Hospitality
+        router.get("/hospitality", function (req, res){
         res.render("hospitality"); 
         });
         // Weddings
         router.get("/wedding", function(req, res){
             res.render("wedding"); 
         });
-
         // Maternity
         router.get("/maternity", function(req, res){
             res.render("maternity"); 
         });
-
+        // Family
+        router.get("/family", function(req, res){
+            res.render("family"); 
+        });
         // Sport
         router.get("/sports", function(req, res){
             res.render("sports"); 
         });
-
         // EVents 
         router.get("/events", function(req, res){
             res.render("events"); 
@@ -49,11 +51,6 @@ var express             = require("express"),
 
 
 
-
-
-
-
-        
 
 // CONTACT SECTION
     router.get("/getintouch", function(req, res){

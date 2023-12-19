@@ -8,14 +8,14 @@
           }
 
 /* DIV CONTAINDER */
-        .mywork,.sectionhospitality,.sectionmaternity,.sectionwedding,.sectionsports,.sectionevents,.sectionbrands {
+        .mywork,.sectionhospitality,.sectionmaternity,.sectionwedding,.sectionsports,.sectionevents,.sectionbrands,.sectionfamily {
           max-height: auto;
           border-radius: 10px;
           display: flex;
           flex-direction: column;;
           font-family: 'Work Sans', sans-serif;
           width: auto;
-          padding: 8% 0 0 0;
+          padding-top: 7%;
           justify-content: left;
          
         }
@@ -68,16 +68,19 @@
                     }
 
             .headerportfolio{
-              font-size: 65px;
               flex-direction: row;
               display: flex;
               flex-wrap: wrap;
               justify-content: center;
               align-self: center;
-              padding: 20px 50px;
-              margin:10px;
+              padding: 20px 30px;
+              margin-bottom: 20px;
               border-bottom:rgba(5, 5, 5, 0.692) solid 1px;
               border-top: rgba(5, 5, 5, 0.692) solid 1px;
+            }
+            .headerportfolio h1 {
+              font-size: 45px;
+              color:rgba(5, 5, 5, 0.692)
             }
        
       .mainpanel{
@@ -133,7 +136,7 @@
 /* ==================== MOBILDE VERSION PORTFOLIO ================ */    
   
 @media screen and (min-width: 250px) and (max-width: 1250px){
-  .mywork,.sectionevents,.sectionwedding, .sectionbrands, .sectionsports, .sectionmaternity,.sectionhospitality{
+  .mywork,.sectionevents,.sectionwedding, .sectionbrands, .sectionsports, .sectionmaternity,.sectionhospitality,.sectionfamily {
    padding-top: 120px;
    padding-bottom: 0;
    }

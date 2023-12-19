@@ -4,7 +4,7 @@
 
   body {
     margin: 0; 
-    width: 1024px;
+    max-width: 100%;
   }
 
   body.home { 
@@ -102,8 +102,8 @@ button{
     
       /* ------- HOME---- */
 
-      @media only screen and (min-width: 250px) and (max-width: 1250px) {
-
+      @media only screen and (min-width: 375px) and (max-width: 1250px)  
+      {
             .main {
               margin-top: 70%;
             }

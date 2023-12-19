@@ -6,8 +6,8 @@
 		  <link rel = "icon" href ="/testIcon.png" type = "image/x-icon" class="icon"> 
 	<!-- META TAGS -->
 	<meta charset="UTF-8">
-	<meta name="description" content="Liva Linde: Event photographer and content writer based in Switzerland." />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Liva Linde.Photographer and content writer based in Switzerland." />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="google-site-verification" content="-i55qYJ931T-nIZOPVmqjMFwaKcTsBVRDJOOAtEb53Y" />
 	
 	<!-- Default mode for google search engine, doesnt pick any specific region or language -->
@@ -19,7 +19,7 @@
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
 	<script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
-
+	
 	<!-- CSS STYLING-->	
 	<link rel="stylesheet" href="/main.css">
 	<link rel="stylesheet" href="/about.css">
@@ -61,12 +61,11 @@
 
 
 
-
 	  <script>
 	  /* -------------------------- LigthBox FUNCTION ------------------ */
 		 window.addEventListener('load', function(){
 			baguetteBox.run(
-			   '.brands, .wedding, .events, .sports, .maternity,.hospitality, .blogSection'
+			   '.brands, .wedding, .events, .sports, .maternity,.hospitality, .blogSection, .family'
 			   );
 		 });
 
@@ -79,11 +78,18 @@
 		 document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 		 } 
 
-		 /* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-document.getElementById("myDropdown").classList.toggle("show");
-}
+		 function myFunction() {
+			var dropdown = document.getElementById("myDropdown");
+			dropdown.classList.toggle("show");
+			// Adjust the navbar height if necessary
+			var navbar = document.querySelector('.navbar');
+			if (dropdown.classList.contains("show")) {
+				navbar.style.height = "auto"; // Or set a specific height that fits your needs
+			} else {
+				navbar.style.height = "initial"; // Reset to default height
+			}
+		}
+
 
 
 // Close the dropdown menu if the user clicks outside of it
